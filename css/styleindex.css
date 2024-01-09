@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+}
+/* header */
+.header{
+    width: 80%;
+    margin: auto;
+    padding: 10px 0;
+    
+}
+
+.test {
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+  
+.test i {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 50%;
+    background-color: #002146;
+    font-size: 20px;
+    vertical-align: bottom;
+    color: #f1c005;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+
+.header-nav{
+    list-style: none;
+    padding: 10px 20px;
+}
+.header-nav li{
+    display: inline;
+    margin-right: 30px;
+    font-weight: 500;
+}
+/* carousel */
+
+.carousel {
+    background-image: url('../img/2.jpg');
+    background-size: cover;
+    background-position: top center; /* Đặt vị trí là trên cùng và giữa */
+    background-repeat: no-repeat;
+    height: 650px;
+}
+/* review */
+.review{
+    padding: 50px 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden; /* Ensure container contains both .content-left and .img-content-right */
+    
+}
+
+.content-left,
+.img-content-right {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    position: relative; /* Add position relative for absolute positioning */
+}
+
+.content-left {
+    background: #fff; /* Set background color to match the container background */
+    height: 100%;
+}
+
+.img-content-right {
+     
+    height: 100%px;
+}
+
+.img-content-right img {
+    width: 100%;
+    height: auto; /* Maintain image aspect ratio */
+    display: block; /* Remove image spacing */
+}
+.content-carousel h1, p{
+    padding-bottom: 35px;
+}
+.button-read button {
+    background-color: #fdc800   ; /* Green background color */
+    color: #012145; /* White text color */
+    padding: 20px 35px; /* Padding around text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor on hover */
+    font-size: 16px; /* Font size */
+    font-weight: bold;
+    
+}
+
+/*show achivement */
+.achivement{
+    padding: 40px 0;
+    float: left;
+    width: 25%;  
+    
+}
+.number{
+    float: left;
+    width: 28%;
+    font-size: 30px;
+    
+}
+.number h1{
+    height: 110px;
+    padding: 20px;
+}
+.name{
+    float: left;
+    width: 60%;
+    height: 110px;
+    
+}
+.name p{
+    font-size: 20px;
+    padding: 30px 0 0 25px;
+}
+
+/* course */
+.course-icon {
+    float: left;
+    width: 25%;
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box; /* Optional, adjusts the box model to include padding and border in the width */
+}
+
+.course-inner {
+    background-color: #002146;
+    text-align: center;
+    height: 150px; /* Optional, adjust as needed */
+    display: table-cell;
+    vertical-align: middle;
+    width: 300px;
+}
+.course-inner h3 {
+    font-size: 15px;
+    font-weight: normal;
+}
+/* post event */
+.post-event{
+    background-color: #f6f6f6;
+    padding: 80px 0;
+}
+.post-left,
+.event-right{
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+.post-title{
+    background-color: #ffffff;
+    padding-top: 5px;
+}
+.title{
+    height: 180px;
+    padding-left: 10px;
+}
+
+.inner-content{
+    height: 175px;
+    margin: 10px;
+    border-bottom: #f3f3f3 solid 2px;
+    padding-top: 15px;
+    
+}
+.img-left{
+    
+    float: left;
+    width: 40%;
+}
+.content-right{
+    width: 60%;
+    float: right;
+}
+.img-left img{
+    width: 200px;
+    border-radius: 5px;
+    height: 130px;
+}
+.button-view{
+    text-align: right;
+}
+.button-view button {
+    background-color: #fdc800   ; /* Green background color */
+    color: #012145; /* White text color */
+    padding: 15px 30px; /* Padding around text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor on hover */
+    font-size: 16px; /* Font size */
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+.calendar-left{
+    float: left;
+    width: 25%;
+}
+.content-evt-right{
+    float: right;
+    width: 75%;
+}
+
+.event-title{
+    height: 205px;
+    margin-bottom: 30px;
+}
+.event{
+    height: 205px;
+}
+.event-inner{
+    height: 205px;
+    overflow: hidden;
+    border-bottom: #f3f3f3 solid 2px;
+    padding-top: 20px;
+}
+.card {
+  padding-left: 20px;
+  text-align: center;
+}
+.card__top {
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fdc800;
+    padding: 0;
+    width: 100px;
+    height: 80px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+.card__top p {
+    color: #1b1d2d;
+    margin: 0;
+  }
+.card__bottom {
+  background-color: #002146;
+  width: 100px;
+  height: 50px;
+  border-radius: 0 0 10px 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.time-local{
+    height: 40px;
+}
+.time-local p{
+    margin-top: 5px;
+}
+.time{
+    float: left;
+    width: 30%;
+    height: 30px;
+    border-right: #bfbfbf solid 2px;
+    width: 110px;
+}
+.local{
+    float: right;
+    width: 70%;
+    height: 30px;
+
+}
+.card p{
+    padding-bottom: 0;
+}
+.card__top, .card__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* .footer */
+.footer {
+    background-color: #002146;
+    padding: 50px 0;
+}
+
+.row {
+    
+    padding-bottom: 30px;
+    border-bottom: #454545 solid 2px;
+    overflow: hidden; /* Add this line to clear floats */
+}
+
+.col {
+    float: left;
+    width: calc(100% / 3);
+}
+.col ul li{
+    padding-bottom: 15px;
+    list-style: none;
+}
